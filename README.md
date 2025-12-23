@@ -1,5 +1,5 @@
 # Ex08 Event Registration Web Application
-## Date:
+## Date:23.12.2025
 
 ## AIM:
 To design, develop and deploy a web application for event registration using Figma UI tool.
@@ -34,10 +34,94 @@ Link frames to show navigation or interactions.
 Select the specific frame while generating code using Anima plugin.
 
 ## CODE:
+```
+
+Page 1:
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box"><div class="rectangle"></div></div>
+  </body>
+</html>
+
+.box {
+  width: 359px;
+  height: 506px;
+}
+
+.box .rectangle {
+  position: fixed;
+  top: -256px;
+  left: -483px;
+  width: 359px;
+  height: 506px;
+  background-color: #d9d9d9;
+}
+
+Page 2:
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box"><div class="rectangle"></div></div>
+  </body>
+</html>
+
+.box {
+  width: 283px;
+  height: 506px;
+}
+
+.box .rectangle {
+  position: fixed;
+  top: -256px;
+  left: -65px;
+  width: 283px;
+  height: 506px;
+  background-color: #d9d9d9;
+}
+
+Page 3:
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box"><div class="rectangle"></div></div>
+  </body>
+</html>
+
+.box {
+  width: 251px;
+  height: 498px;
+}
+
+.box .rectangle {
+  position: fixed;
+  top: -256px;
+  left: 257px;
+  width: 251px;
+  height: 498px;
+  background-color: #d9d9d9;
+}
+
+```
 
 
 ## OUTPUT:
-
+![alt text](<Screenshot (31).png>)
 
 ## RESULT:
 The program to design, develop and deploy a web application for event registration using Figma UI tool is completed successfully.
